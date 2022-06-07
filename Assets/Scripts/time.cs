@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class time : MonoBehaviour
 {
+    internal static int Timescale;
     public Text txt_timeFloored;
-    public float elapsedTime;
     public GameObject txt_ganaste;
+    public GameObject txt_perdiste;
 
     // Start is called before the first frame update
     void Start()
     {
-        elapsedTime = 0;
     }
 
     // Update is called once per frame
@@ -20,9 +20,11 @@ public class time : MonoBehaviour
     {
         float currentTime = Time.time;
         txt_timeFloored.text = Mathf.Floor(currentTime).ToString();
-        if (currentTime > 15)
-        {
-            txt_ganaste.SetActive(true);
+
+            if (currentTime > 5)
+            {
+                txt_ganaste.SetActive(true);
+            
+            }
         }
     }
-}

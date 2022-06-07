@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class collision : MonoBehaviour
 {
+    public GameObject txt_perdiste;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,9 @@ public class collision : MonoBehaviour
         if (other.gameObject.name == "Auto")
         {
             Destroy(gameObject);
+            txt_perdiste.SetActive(true);
+            time.Timescale = 0;
         }
-
+        
     }
 }
