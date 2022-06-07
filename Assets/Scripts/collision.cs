@@ -25,6 +25,6 @@ public class collision : MonoBehaviour
             txt_perdiste.SetActive(true);
             time.Timescale = 0;
         }
-        
+
     }
 }
