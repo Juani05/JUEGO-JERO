@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 429994826}
   - component: {fileID: 429994825}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txt_tiempo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -892,7 +892,7 @@ GameObject:
   - component: {fileID: 959101307}
   - component: {fileID: 959101306}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txt_perdiste
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1061,7 +1061,7 @@ GameObject:
   - component: {fileID: 1140167918}
   - component: {fileID: 1140167917}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Ruta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1243,7 +1243,7 @@ GameObject:
   - component: {fileID: 1168445167}
   - component: {fileID: 1168445166}
   m_Layer: 5
-  m_Name: Text
+  m_Name: txt_ganaste
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1451,7 +1451,7 @@ GameObject:
   - component: {fileID: 1194344221}
   - component: {fileID: 1194344220}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Cartelito-ganaste
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1797,7 +1797,7 @@ GameObject:
   - component: {fileID: 1818152383}
   - component: {fileID: 1818152382}
   m_Layer: 5
-  m_Name: Panel (1)
+  m_Name: cartelito_perdiste
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2050,7 +2050,7 @@ PrefabInstance:
     - target: {fileID: 2154204829234037890, guid: 239b4adf49d133f4cad74c87e8c18e87,
         type: 3}
       propertyPath: m_Name
-      value: Sphere
+      value: Moto
       objectReference: {fileID: 0}
     - target: {fileID: 3755928619241301685, guid: 239b4adf49d133f4cad74c87e8c18e87,
         type: 3}
