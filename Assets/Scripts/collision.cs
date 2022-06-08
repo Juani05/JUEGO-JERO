@@ -23,7 +23,7 @@ public class collision : MonoBehaviour
         {
             Destroy(gameObject);
             txt_perdiste.SetActive(true);
-            time.Timescale = 0;
+            Time.timeScale = 0;
         }
 
     }

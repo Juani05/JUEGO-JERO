@@ -21,10 +21,11 @@ public class time : MonoBehaviour
         float currentTime = Time.time;
         txt_timeFloored.text = Mathf.Floor(currentTime).ToString();
 
-            if (currentTime > 5)
+            if (currentTime > 6)
             {
                 txt_ganaste.SetActive(true);
-            
-            }
+            Time.timeScale = 0;
+
+        }
         }
     }
