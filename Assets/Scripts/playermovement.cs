@@ -7,6 +7,7 @@ public class playermovement : MonoBehaviour
     public Vector3 playerSpeed;
     public float movementSpeed;
     public GameObject myobject;
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,9 @@ public class playermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(0,0,movementSpeed); 
+ 
+       transform.Translate(0, 0, movementSpeed);
+
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += new Vector3(movementSpeed, 0, 0);

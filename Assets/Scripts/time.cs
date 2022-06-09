@@ -21,7 +21,7 @@ public class time : MonoBehaviour
         float currentTime = Time.time;
         txt_timeFloored.text = Mathf.Floor(currentTime).ToString();
 
-            if (currentTime > 6)
+            if (currentTime > 15)
             {
                 txt_ganaste.SetActive(true);
             Time.timeScale = 0;
